@@ -173,7 +173,7 @@ pipeline {
         always {
             archiveArtifacts(
                 artifacts: 'test-results.log,npm-audit.json',
-                allowEmpty: true
+                allowEmptyArchive: true
             )
         }
 
