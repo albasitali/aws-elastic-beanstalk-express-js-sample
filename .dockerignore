@@ -1,0 +1,8 @@
+.git
+.gitignore
+Jenkinsfile
+node_modules
+npm-debug.log*
+tests
+coverage
+*.log
